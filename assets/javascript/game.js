@@ -43,7 +43,7 @@ var letters = ["a", "b", "c", "d", "e", "f", "g", "h",
 					wins++;
 					document.getElementById("wins").innerHTML = "Wins: " + wins;
 					newGame();
-					guessesSoFar = [];}
+					guessesSoFar.length = 0;}
 
 						} else if (remaining === 0) {
 							losses++;
