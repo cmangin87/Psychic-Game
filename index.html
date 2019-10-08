@@ -7,26 +7,25 @@
     <title>The Psychic Game</title>
 </head>
 
-<script src="./assets/javascript/game.js"></script>
-
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="reset" href="./assets/css/reset.css">
 
 <body>
-
         <img src="assets/images/carnac.jpg" style="width:22em; height:20em;" alt="Carnac">
         <img src="assets/images/misscleo.jpg" style ="width:22em; height:20em;" alt="MissCleo">
         <img src="assets/images/johnedward.jpg" style="width:22em; height:20em;" alt="JohnEdward">
         <img src="assets/images/sylviabrowne.jpg" style="width:22em; height:20em;" alt="SylviaBrowne">
 
-    	<div id="game">
+        <div class="container"> 
                 <h1>**The Psychic Game**</h1>
                 <p>Guess what letter I'm thinking of!</p>
-                <p>Wins:</p>
-                <p>Losses:</p>
-                <p>Guesses Left:</p>
-                <p>Your Guesses So Far:</p>
+                <p id="wins"> Wins: </p>
+                <p id="losses"> Losses: </p>
+                <p id="remaining"> Guesses Remaining: </p>
+                <p id="guesses"> Guesses: </p>
             </div>
+
+            <script src="./assets/javascript/game.js"></script>
     
 </body>
 </html>
