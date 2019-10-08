@@ -6,7 +6,7 @@ var letters = ["a", "b", "c", "d", "e", "f", "g", "h",
 		 var losses = 0;
 		 var remaining = 9;
 		 var guesses = 9
-		 var guessesSoFar = [""];
+		 var guessesSoFar = [];
 		 var computerLetter;
 
 		 var newLetter = function() {
@@ -52,3 +52,5 @@ var letters = ["a", "b", "c", "d", "e", "f", "g", "h",
 							guessesSoFar = [];
 						}
 		};
+
+		newLetter()
